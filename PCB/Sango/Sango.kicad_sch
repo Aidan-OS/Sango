@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b3610507-f8cf-4536-91fb-ccd246b0546b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 144.78 52.07) (size 43.18 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8844218a-baae-4d88-93bf-a73f8aae810d)
+    (property "Sheetname" "Right_Side" (at 144.78 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Right_Side.kicad_sch" (at 144.78 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Sango"
+        (path "/b3610507-f8cf-4536-91fb-ccd246b0546b" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 60.96 50.8) (size 55.88 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a7f827bb-7abe-440f-bda3-0d9b99750074)
+    (property "Sheetname" "Left_Side" (at 60.96 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Left_Side.kicad_sch" (at 60.96 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Sango"
+        (path "/b3610507-f8cf-4536-91fb-ccd246b0546b" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Sango Art")(type "KiCad")(uri "D:/OneDrive/Documents/KiCad/Sango/PCB/Sango_Libraries")(options "")(descr ""))
+)
