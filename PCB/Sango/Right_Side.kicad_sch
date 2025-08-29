@@ -1823,7 +1823,6 @@
   (no_connect (at 233.68 71.12) (uuid 1139704d-e1c0-4e98-8fda-76b15b27a471))
   (no_connect (at 233.68 99.06) (uuid 17dbc575-b2cd-48ec-b0da-b0b71fcd08f5))
   (no_connect (at 233.68 76.2) (uuid 29e31dcc-002d-4a9e-a014-186384e5dae0))
-  (no_connect (at 233.68 93.98) (uuid 2ee8f6ed-1306-4510-99d8-78285ed9e627))
   (no_connect (at 182.88 99.06) (uuid 33370dc7-9324-4ce1-be16-ff2c5de14184))
   (no_connect (at 182.88 96.52) (uuid 3c1cb45e-8d49-4983-98ff-d30821f44da1))
   (no_connect (at 233.68 81.28) (uuid 3fcb225f-0d7b-47eb-910b-f432b30d33b4))
@@ -4181,6 +4180,39 @@
         )
         (path "/b3610507-f8cf-4536-91fb-ccd246b0546b/8844218a-baae-4d88-93bf-a73f8aae810d"
           (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 233.68 93.98 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e2045d55-09ff-4db1-8aa7-631147997088)
+    (property "Reference" "#PWR0114" (at 229.87 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 236.982 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 233.68 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 233.68 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3ba26476-86a8-4af2-bf1c-d0c78afb09d5))
+    (instances
+      (project "Main PCB"
+        (path "/a96e3b6b-3809-4995-a49d-2602f32cc3bc"
+          (reference "#PWR0114") (unit 1)
+        )
+      )
+      (project "Sango"
+        (path "/b3610507-f8cf-4536-91fb-ccd246b0546b"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/b3610507-f8cf-4536-91fb-ccd246b0546b/8844218a-baae-4d88-93bf-a73f8aae810d"
+          (reference "#PWR087") (unit 1)
         )
       )
     )

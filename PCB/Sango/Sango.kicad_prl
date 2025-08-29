@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -214,7 +214,6 @@
       "unconnected-(U2-GPIO22-Pad34)",
       "unconnected-(U2-GPIO23-Pad35)",
       "unconnected-(U2-GPIO24-Pad36)",
-      "unconnected-(U2-GPIO25-Pad37)",
       "unconnected-(U2-GPIO26_ADC0-Pad38)",
       "unconnected-(U2-GPIO27_ADC1-Pad39)",
       "unconnected-(U2-GPIO28_ADC2-Pad40)",
@@ -232,7 +231,6 @@
       "unconnected-(U4-GPIO22-Pad34)",
       "unconnected-(U4-GPIO23-Pad35)",
       "unconnected-(U4-GPIO24-Pad36)",
-      "unconnected-(U4-GPIO25-Pad37)",
       "unconnected-(U4-GPIO26_ADC0-Pad38)",
       "unconnected-(U4-GPIO27_ADC1-Pad39)",
       "unconnected-(U4-GPIO28_ADC2-Pad40)",

@@ -1833,7 +1833,6 @@
   (no_connect (at 232.41 86.36) (uuid 7a8b6306-0a5b-4520-a3f1-45d61c6d5e8d))
   (no_connect (at 181.61 96.52) (uuid 7e891b6d-dc9a-4d03-b318-ab244d9a2a92))
   (no_connect (at 232.41 106.68) (uuid 804d54ef-219b-4d8c-8221-efceda881ec9))
-  (no_connect (at 232.41 93.98) (uuid 807240a5-2c60-4102-953d-9a2ad706925a))
   (no_connect (at 232.41 91.44) (uuid 9980c5dd-50ee-4adb-97ee-9750bff16e38))
   (no_connect (at 232.41 71.12) (uuid a96dee70-d795-4731-8f29-1004d8be493a))
   (no_connect (at 48.895 55.245) (uuid e52aa50a-f3d4-4168-8594-cea26cbf414c))
@@ -4125,6 +4124,31 @@
       (project "Sango"
         (path "/b3610507-f8cf-4536-91fb-ccd246b0546b/a7f827bb-7abe-440f-bda3-0d9b99750074"
           (reference "#PWR033") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Aidans-Custom-Lib:GND_L") (at 232.41 93.98 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d30b2f01-8978-4cbf-aa3e-4a5a478eebea)
+    (property "Reference" "#PWR088" (at 238.76 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_L" (at 235.585 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 232.41 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 232.41 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eb997315-bf6e-4a8d-b71e-41c7101092e1))
+    (instances
+      (project "Sango"
+        (path "/b3610507-f8cf-4536-91fb-ccd246b0546b/a7f827bb-7abe-440f-bda3-0d9b99750074"
+          (reference "#PWR088") (unit 1)
         )
       )
     )
